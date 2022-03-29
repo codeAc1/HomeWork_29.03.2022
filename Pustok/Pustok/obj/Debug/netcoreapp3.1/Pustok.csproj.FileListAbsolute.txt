@@ -440,3 +440,5 @@ C:\Users\Admin\Desktop\Backend dersler\HomeWork\29.03.2022\Pustok\Pustok\obj\Deb
 C:\Users\Admin\Desktop\Backend dersler\HomeWork\29.03.2022\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.dll
 C:\Users\Admin\Desktop\Backend dersler\HomeWork\29.03.2022\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.pdb
 C:\Users\Admin\Desktop\Backend dersler\HomeWork\29.03.2022\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Backend dersler\HomeWork\29.03.2022\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ProductSliderPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\Backend dersler\HomeWork\29.03.2022\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ProductDetailPartial.cshtml.g.cs
