@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Backend dersler\\HomeWork\\29.03.2022\\Pustok\\Pustok\\Pustok.csproj": {}
+    "C:\\Users\\memme\\Desktop\\P224\\Task\\Pustok\\Pustok\\Pustok.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Backend dersler\\HomeWork\\29.03.2022\\Pustok\\Pustok\\Pustok.csproj": {
+    "C:\\Users\\memme\\Desktop\\P224\\Task\\Pustok\\Pustok\\Pustok.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Backend dersler\\HomeWork\\29.03.2022\\Pustok\\Pustok\\Pustok.csproj",
+        "projectUniqueName": "C:\\Users\\memme\\Desktop\\P224\\Task\\Pustok\\Pustok\\Pustok.csproj",
         "projectName": "Pustok",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Backend dersler\\HomeWork\\29.03.2022\\Pustok\\Pustok\\Pustok.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Backend dersler\\HomeWork\\29.03.2022\\Pustok\\Pustok\\obj\\",
+        "projectPath": "C:\\Users\\memme\\Desktop\\P224\\Task\\Pustok\\Pustok\\Pustok.csproj",
+        "packagesPath": "C:\\Users\\memme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\memme\\Desktop\\P224\\Task\\Pustok\\Pustok\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\memme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,6 +62,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [
@@ -81,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -145,57 +145,13 @@ Home Slider Tab
             </ul>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane show active" id="shop" role="tabpanel" aria-labelledby="shop-tab">
-                    <div class="product-slider multiple-row  slider-border-multiple-row  sb-slick-slider"
-                         data-slick-setting='{
-                            "autoplay": true,
-                            "autoplaySpeed": 8000,
-                            "slidesToShow": 5,
-                            "rows":1,
-                            "dots":true
-                        }' data-slick-responsive='[
-                            {"breakpoint":1200, "settings": {"slidesToShow": 3} },
-                            {"breakpoint":768, "settings": {"slidesToShow": 2} },
-                            {"breakpoint":480, "settings": {"slidesToShow": 1} },
-                            {"breakpoint":320, "settings": {"slidesToShow": 1} }
-                        ]'>
-                       @await Html.PartialAsync("_ProductSliderPartial", Model.Feature)
-
-                    </div>
+                        @await Html.PartialAsync("_ProductSliderPartial",Model.Feature)
                 </div>
                 <div class="tab-pane" id="men" role="tabpanel" aria-labelledby="men-tab">
-                    <div class="product-slider multiple-row  slider-border-multiple-row  sb-slick-slider"
-                         data-slick-setting='{
-                                        "autoplay": true,
-                                        "autoplaySpeed": 8000,
-                                        "slidesToShow": 5,
-                                        "rows":2,
-                                        "dots":true
-                                    }' data-slick-responsive='[
-                                        {"breakpoint":1200, "settings": {"slidesToShow": 3} },
-                                        {"breakpoint":768, "settings": {"slidesToShow": 2} },
-                                        {"breakpoint":480, "settings": {"slidesToShow": 1} },
-                                        {"breakpoint":320, "settings": {"slidesToShow": 1} }
-                                    ]'>
                         @await Html.PartialAsync("_ProductSliderPartial", Model.Arrival)
-                        }
-                    </div>
                 </div>
                 <div class="tab-pane" id="woman" role="tabpanel" aria-labelledby="woman-tab">
-                    <div class="product-slider multiple-row  slider-border-multiple-row  sb-slick-slider"
-                         data-slick-setting='{
-                                        "autoplay": true,
-                                        "autoplaySpeed": 8000,
-                                        "slidesToShow": 5,
-                                        "rows":2,
-                                        "dots":true
-                                    }' data-slick-responsive='[
-                                        {"breakpoint":1200, "settings": {"slidesToShow": 3} },
-                                        {"breakpoint":768, "settings": {"slidesToShow": 2} },
-                                        {"breakpoint":480, "settings": {"slidesToShow": 1} },
-                                        {"breakpoint":320, "settings": {"slidesToShow": 1} }
-                                    ]'>
-                        @await Html.PartialAsync("_ProductSliderPartial", Model.MostView)
-                    </div>
+                        @await Html.PartialAsync("_ProductSliderPartial",Model.MostView)
                 </div>
             </div>
         </div>
@@ -1388,25 +1344,25 @@ Footer
 <!-- Modal -->
 <div class="modal fade modal-quick-view" id="quickModal" tabindex="-1" role="dialog"
      aria-labelledby="quickModal" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <button type="button" class="close modal-close-btn ml-auto" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="product-details-modal">
-                
-            </div>
-            <div class="modal-footer">
-                <div class="widget-social-share">
-                    <span class="widget-label">Share:</span>
-                    <div class="modal-social-share">
-                        <a href="#" class="single-icon"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="single-icon"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="single-icon"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="single-icon"><i class="fab fa-google-plus-g"></i></a>
+     <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-btn ml-auto" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="product-details-modal">
+
+                        </div>
+                    <div class="modal-footer">
+                        <div class="widget-social-share">
+                            <span class="widget-label">Share:</span>
+                            <div class="modal-social-share">
+                                <a href="#" class="single-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="single-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="single-icon"><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="single-icon"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    </div>
             </div>
-        </div>
-    </div>
 </div>

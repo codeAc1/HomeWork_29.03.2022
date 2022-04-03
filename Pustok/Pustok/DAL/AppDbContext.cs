@@ -20,5 +20,6 @@ namespace Pustok.DAL
         public virtual DbSet<Author> Authors { get; set; }
         public virtual DbSet<Genre> Genres { get; set; }
         public virtual DbSet<ProductImage> ProductImages { get; set; }
+        public virtual DbSet<Setting> Settings { get; set; }
     }
 }
