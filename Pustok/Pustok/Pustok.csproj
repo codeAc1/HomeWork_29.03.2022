@@ -9,6 +9,8 @@
     <Compile Remove="Migrations\20211005131837_AddedAndUpdatedAnyTables.Designer.cs" />
     <Compile Remove="Migrations\20211005132022_AddedAndUpdatedAnyTables.cs" />
     <Compile Remove="Migrations\20211005132022_AddedAndUpdatedAnyTables.Designer.cs" />
+    <Compile Remove="Migrations\20220405123456_UpdatedProductsTableFile.cs" />
+    <Compile Remove="Migrations\20220405123456_UpdatedProductsTableFile.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

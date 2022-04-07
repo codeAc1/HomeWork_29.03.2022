@@ -304,3 +304,8 @@ C:\Users\memme\Desktop\P224\Task\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.cs
 C:\Users\memme\Desktop\P224\Task\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.dll
 C:\Users\memme\Desktop\P224\Task\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.pdb
 C:\Users\memme\Desktop\P224\Task\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.genruntimeconfig.cache
+C:\Users\memme\Desktop\P224\Task\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Product\Create.cshtml.g.cs
+C:\Users\memme\Desktop\P224\Task\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Product\Detail.cshtml.g.cs
+C:\Users\memme\Desktop\P224\Task\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Product\Update.cshtml.g.cs
+C:\Users\memme\Desktop\P224\Task\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Product\Delete.cshtml.g.cs
+C:\Users\memme\Desktop\P224\Task\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Shared\_ProductTablePartial.cshtml.g.cs
